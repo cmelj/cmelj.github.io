@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+    color: black;
+}
+
+h2 {
+	margin-top: 30px;
+    color: black;
+}
+
+h3 {
+	margin-top: 20px;
+    color: rgb(9, 9, 9);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+li:before {
+	content: "• ";
+	font-weight: bold;
+    color: aliceblue;
+}
+<style>
+  .my-image {
+    width: 50%;
+    height: auto;
+  }
+</style>
+
+<img src="image.jpg" alt="My Image" class="my-image">
